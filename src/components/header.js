@@ -11,6 +11,7 @@ function BasicExample() {
   return (
     <header >       
          {/* <Container> */}
+        <div className="contain">
         <Navbar>
           <Navbar.Brand href="#home" className="d-flex align-items-center">
             <img
@@ -25,7 +26,7 @@ function BasicExample() {
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text className="d-flex align-items-center">
             <a href="#login" className="a-1">Create an Account</a>
-            <Button variant="light" className="mx-3 px-5">Login</Button>{' '}
+            <Button variant="light" className="mx-3 px-5 btn-1">Login</Button>{' '}
           </Navbar.Text>
         </Navbar.Collapse>
       </Navbar>
@@ -56,6 +57,7 @@ function BasicExample() {
             </div>
         </div>
               {/* </Container> */}
+              </div>
     </header>    
   );
 }
