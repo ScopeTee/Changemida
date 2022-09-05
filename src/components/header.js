@@ -7,7 +7,7 @@ import Form from 'react-bootstrap/Form';
 import Photo from "../Images/Vector 7.png"
 import Bag from "../Images/bag.png"
 
-function BasicExample() {
+function Header() {
   return (
     <header >       
          {/* <Container> */}
@@ -62,4 +62,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Header;

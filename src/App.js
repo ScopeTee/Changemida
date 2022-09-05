@@ -1,13 +1,15 @@
 // import logo from './logo.svg';
 import './App.css';
-import BasicExample from './components/header';
+import Header from './components/header';
+import Section2 from './components/section2';
 
 
 function App() {
   return (
     <main className="App">
       <div>
-      <BasicExample />
+      <Header />
+      <Section2 />
       </div>
     </main>
   );
