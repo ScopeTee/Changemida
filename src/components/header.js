@@ -7,7 +7,7 @@ import Form from 'react-bootstrap/Form';
 import Photo from "../Images/Vector 7.png"
 import Bag from "../Images/bag.png"
 
-function BasicExample() {
+function Header() {
   return (
     <header >       
          {/* <Container> */}
@@ -40,7 +40,7 @@ function BasicExample() {
                     <Form>
                         <Form.Group className="mb-3 d-flex" controlId="formBasicEmail">
                             <Form.Control type="email" placeholder="Enter your email address" className="py-2"/>
-                            <Button className="mx-3 px-5">Create yout first wallet</Button>{' '}
+                            <Button className="mx-3 px-5 btn-0">Create yout first wallet</Button>{' '}
                         </Form.Group>                    
                     </Form>
                     <p class="sp-1">Create a customer friendly wallet in minutes</p>
@@ -62,4 +62,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Header;

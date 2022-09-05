@@ -2,14 +2,14 @@
   /* text-align: center; */
   height: 4755px;
           /* width: 90%; */
-  max-width: 1440px;
+  width: 1440px;
 /* margin: 0 auto; */
 /* left: 1134px;
 top: -485px;
 border-radius: 0px; */
 
 }
-
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -43,7 +43,7 @@ border-radius: 0px; */
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 header {
   background: #5537D3;
@@ -64,6 +64,14 @@ header {
 font-size: 66px;
 font-weight: 700;
 line-height: 90px;
+letter-spacing: 0em;
+
+}
+.btn-0 {
+  background: #9A52DF;
+font-size: 16px;
+font-weight: 500;
+line-height: 22px;
 letter-spacing: 0em;
 
 }
