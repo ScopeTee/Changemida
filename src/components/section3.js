@@ -1,6 +1,5 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
-// import Arrow from "../Images/Vector.png"
 import Photo9 from "../Images/image 9.png"
 import Photo7 from "../Images/image 7.png"
 import Photo6 from "../Images/image 6.png"
@@ -12,10 +11,10 @@ function Section3() {
         <section className="section-3">
             <div className="divider"></div>
             <div className="contain s-3">
-                <div class="section-2-text text-center px-5 mt-3 pt-5">
+                <div class="section-2-text text-center px-5 mt-5 pt-5">
                     <div>
-                        <h2 className="my-3">Top up payments from your customers wallet</h2>
-                        <p class=""> Save time and speed up payments from your customers’s wallet</p>  
+                        <h2 className="h2-1 my-3">Top up payments from your customers wallet</h2>
+                        <p class="p-3"> Save time and speed up payments from your customers’s wallet</p>  
                         <Button className="btn-2 px-3 py-3">Create yout first wallet</Button>{' '}
                     </div>                
                 </div>
