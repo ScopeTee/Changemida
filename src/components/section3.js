@@ -4,6 +4,8 @@ import Photo9 from "../Images/image 9.png"
 import Photo7 from "../Images/image 7.png"
 import Photo6 from "../Images/image 6.png"
 import Image from 'react-bootstrap/Image'
+import Arrow from "../Images/Vector.png"
+
 
 
 function Section3() {
@@ -36,7 +38,7 @@ function Section3() {
                         />{''}
                     </div>
                     <div className="img-set-2">
-                    <Image
+                       <Image
                         alt=""
                         src={Photo6}
                         width="282"
@@ -46,8 +48,15 @@ function Section3() {
                     </div>
 
                 </div>
+                <Image
+                        alt=""
+                        src={Arrow}
+                        width="95"
+                        height="95"
+                        className="d-inline-block align-top arrow-right"
+                        />{''}
             </div>
-            
+            <div className="divider mt-5"></div>
         </section>
     );
 }

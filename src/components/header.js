@@ -40,8 +40,8 @@ function Header() {
                 <div className="mt-5 pt-5">
                     <Form>
                         <Form.Group className="mb-3 d-flex" controlId="formBasicEmail">
-                            <Form.Control type="email" placeholder="Enter your email address" className="py-2"/>
-                            <Button className="mx-3 px-5">Create yout first wallet</Button>{' '}
+                            <Form.Control type="email" placeholder="Enter your email address" className="py-3"/>
+                            <Button className="mx-3 py-3 px-5 btn-0">Create yout first wallet</Button>{' '}
                         </Form.Group>                    
                     </Form>
                     <p class="sp-1">Create a customer friendly wallet in minutes</p>
