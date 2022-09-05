@@ -144,3 +144,18 @@ font-weight: 500;
 font-size: 16px;
 line-height: 22px;
 }
+
+.divider {
+  width: 174px;
+  height: 2px;
+  background: #9A52DF;
+  margin: 0 auto;
+}
+
+.s-3{
+  font-family: 'Nunito', sans-serif;
+  height: 680px;
+  background: rgba(245, 215, 255, 0.29);
+  opacity: 0.8;
+  border-radius: 30px;
+}

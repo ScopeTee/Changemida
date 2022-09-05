@@ -3,6 +3,7 @@ import React from "react";
 // import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
+import Image from 'react-bootstrap/Image'
 import Form from 'react-bootstrap/Form';
 import Photo from "../Images/Vector 7.png"
 import Bag from "../Images/bag.png"
@@ -14,7 +15,7 @@ function Header() {
         <div className="contain">
         <Navbar>
           <Navbar.Brand href="#home" className="d-flex align-items-center">
-            <img
+            <Image
               alt=""
               src={Photo}
               width="45"
@@ -47,7 +48,7 @@ function Header() {
                 </div>                
             </div>
             <div class="hero-img">
-            <img
+            <Image
               alt=""
               src={Bag}
               width="495"
@@ -56,8 +57,7 @@ function Header() {
             />{''}            
             </div>
         </div>
-              {/* </Container> */}
-              </div>
+      </div>
     </header>    
   );
 }
