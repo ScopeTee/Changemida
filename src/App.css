@@ -262,3 +262,80 @@ color: #544464;
   justify-content: space-between;
   align-items: center;
 }
+
+.footer {
+  height: 652px;
+  font-family: Nunito;
+  background: rgba(85, 55, 211, 0.21);
+  /* border-radius: 0 40% 0 0; */
+}
+
+.h3 {
+  font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 150%;
+/* background: linear-gradient(#5537D3,);
+color: #5537D3; */
+/* background-color: linear-gradient(0deg, #5537D3, #5537D3),
+linear-gradient(0deg, #9A52DF, #9A52DF); */
+background: linear-gradient(to right, #5537D3, #5537D3),
+linear-gradient(to right, #9A52DF, #9A52DF);;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+/* color: linear-gradient(0deg, #9A52DF, #9A52DF); */
+;
+}
+.sp-4 {
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #544464;
+
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .h2-5 {
+font-size: 60px;
+font-weight: 700;
+line-height: 82px;
+letter-spacing: 0em;
+text-align: left;
+color: #5537D3;
+
+  }
+.vaza {
+  margin-top: -25px;
+}
+
+.sp-5 a {
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+
+color: #544464;
+}
+
+.foot-wrap {
+  width: 25%;
+}
+
