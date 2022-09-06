@@ -11,7 +11,7 @@ import Arrow from "../Images/Vector.png"
 function Section3() {
     return ( 
         <section className="section-3">
-            <div className="divider"></div>
+            {/* <div className="divider"></div> */}
             <div className="contain s-3">
                 <div class="section-2-text text-center px-5 mt-5 pt-5">
                     <div>

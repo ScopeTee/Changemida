@@ -339,4 +339,6 @@
     width: 25%;
   }
   
-  
+  .d-1 {
+    background: url(${NairaBg});
+  }
