@@ -57,5 +57,5 @@ export const SecondSection= styled.section`
             border: 2px solid #000000;
             border-radius: 32px;
           }
-          
 `
+

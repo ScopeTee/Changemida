@@ -18,6 +18,7 @@ function App() {
         <Section2 />
         <Divide />
         <Section3 />
+        <Divide />
         {/* <Section4 />
         <Section5 />
         <Footer /> */}

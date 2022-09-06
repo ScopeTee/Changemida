@@ -342,3 +342,10 @@
   .d-1 {
     background: url(${NairaBg});
   }
+
+
+  .img-group {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
