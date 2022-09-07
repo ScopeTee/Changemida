@@ -56,3 +56,6 @@ export const OverlayArrow = styled.div`
     // right: 40.18%;
     margin-top: -9%;
 `
+export const ThirdSectionText = styled.div`
+    text-align: center;
+`

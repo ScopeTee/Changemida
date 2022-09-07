@@ -32,9 +32,6 @@ export const HeaderSection = styled.header`
       line-height: 22px;
       letter-spacing: 0em;
       }
-      .hero-text {
-        width: -webkit-fill-available;
-      }
       .h1 {
         width: 100%;
       font-size: 66px;
@@ -57,4 +54,14 @@ export const HeaderSection = styled.header`
           }
         
 `
+export const HeaderSectionText = styled.div`
+  width: -webkit-fill-available;
+  text-align: left;
+`
 
+export const HeaderSectionFlex = styled.div`
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+`

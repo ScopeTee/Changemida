@@ -1,10 +1,13 @@
 import React from "react";
-import { HeaderSection } from "../styles/header.styled";
+
+import { HeaderSection, HeaderSectionText, HeaderSectionFlex } from "../styles/header.styled";
 import { Container } from "../styles/Container.styled";
+
 import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image'
 import Form from 'react-bootstrap/Form';
+
 import Photo from "../Images/Vector 7.png"
 import Bag from "../Images/bag.png"
 
@@ -30,22 +33,22 @@ function Header() {
           </Navbar.Text>
         </Navbar.Collapse>
       </Navbar>
-        <div class="mt-5 d-flex align-items-center justify-content-between">
-            <div class="hero-text text-start px-3">
-                <div>
+        <HeaderSectionFlex class="mt-5">
+            <HeaderSectionText className="px-3">
+                {/* <div> */}
                     <h1 className="h1 my-3">App-less wallets <br /> for your customers</h1>
-                    <p class="sp-1">Phone number as a wallet</p>  
-                </div>
-                <div className="mt-5 pt-5">
-                    <Form>
+                    <p className="sp-1">Phone number as a wallet</p>  
+                {/* </div> */}
+                {/* <div className="mt-5 pt-5"> */}
+                    <Form className="mt-5 pt-5">
                         <Form.Group className="mb-3 d-flex" controlId="formBasicEmail">
                             <Form.Control type="email" placeholder="Enter your email address"/>
                             <Button className="mx-3 py-3 btn-0">Create yout first wallet</Button>{' '}
-                        </Form.Group>                    
+                        </Form.Group>   
+                        <p class="sp-1">Create a customer friendly wallet in minutes</p>                 
                     </Form>
-                    <p class="sp-1">Create a customer friendly wallet in minutes</p>
-                </div>                
-            </div>
+                {/* </div>                 */}
+            </HeaderSectionText>
             <Container className="ps-5">
               <Image
                 alt=""
@@ -55,7 +58,7 @@ function Header() {
                 className="d-inline-block align-top"
               />{''}   
             </Container>         
-        </div>
+        </HeaderSectionFlex>
     </Container>
     </HeaderSection> 
   );

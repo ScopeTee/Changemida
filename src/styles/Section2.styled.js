@@ -59,3 +59,13 @@ export const SecondSection= styled.section`
           }
 `
 
+export const SecondSectionFlex = styled.div`
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+`
+
+export const SecondSectionText = styled.div`
+    text-align: left;
+`

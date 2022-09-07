@@ -1,5 +1,5 @@
 import React from "react";
-import { ThirdSection, ThirdSectionImg, ImgSetOne, OverlayArrow} from "../styles/Section3.styled";
+import { ThirdSection,ThirdSectionText, ThirdSectionImg, ImgSetOne, OverlayArrow} from "../styles/Section3.styled";
 import { Container } from "../styles/Container.styled";
 import Button from 'react-bootstrap/Button';
 import Photo9 from "../Images/image 9.png"
@@ -15,11 +15,11 @@ function Section3() {
         <Container>
             <ThirdSection className="my-5">
                 <Container>                
-                    <div class="text-center mt-5 pt-5">
+                    <ThirdSectionText className="mt-5 pt-5">
                             <h2 className="h2-1 my-3">Top up payments from your customers wallet</h2>
                             <p className="p-3"> Save time and speed up payments from your customers’s wallet</p>  
                             <Button className="btn-2 px-3 py-3">Create yout first wallet</Button>{' '}
-                    </div>
+                    </ThirdSectionText>
                     <ThirdSectionImg className="mt-5">
                         <ImgSetOne>
                         <Image
@@ -38,7 +38,7 @@ function Section3() {
                             />{''}
                             </ImgSetOne>
                         <div>
-                        <Image
+                            <Image
                             alt=""
                             src={Photo6}
                             width="282"
