@@ -4,6 +4,7 @@ export const FooterSection = styled.section`
     height: 652px;
     font-family: Nunito;
     background: rgba(85, 55, 211, 0.21);
+    clip-path: polygon(0 0, 65% 0, 100% 32%, 100% 100%, 0 100%, 0% 50%);
 `
 export const FooterSectionText = styled.div`
 
