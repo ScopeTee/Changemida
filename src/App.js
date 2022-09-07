@@ -5,10 +5,10 @@ import {Divide} from './styles/divider.styled'
 import Section3 from './components/section3';
 import Section4 from './components/section4';
 import Section5 from './components/section5';
+import Footer from './components/footer';
 
 // import { Container } from "./styles/Container.styled";
 
-// import Footer from './components/footer';
 
 
 
@@ -23,7 +23,7 @@ function App() {
         <Divide />
         <Section4 />
         <Section5 />
-        {/* <Footer /> */}
+        <Footer />
       {/* </Container> */}
     </>
   );
