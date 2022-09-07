@@ -45,13 +45,13 @@ function Header() {
                         <p class="sp-1">Create a customer friendly wallet in minutes</p>                 
                     </Form>
             </HeaderSectionText>
-            <Container className="ps-5">
+            <Container className="">
               <Image
                 alt=""
                 src={Bag}
                 width="495"
                 height="530"
-                className="d-inline-block align-top"
+                className="d-inline-block align-top bag-img"
               />{''}   
             </Container>         
         </HeaderSectionFlex>

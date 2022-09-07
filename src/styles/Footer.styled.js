@@ -30,6 +30,9 @@ export const FooterSectionTextWrap = styled.div`
     @media (min-width: 481px ) and (max-width: 768px) {
         width: 80%;
     }
+    @media only screen and (max-width: 480px) {
+        width: 100%;
+    }
 
     .h3{
         font-family: 'Nunito';
@@ -81,6 +84,19 @@ export const FooterSectionFlex = styled.section`
 
         .sub-flex{
             display: flex;
+            .sp-5 a {
+                // border: 2px solid red;
+                margin: 0 2em 0 0;
+            }
+        }
+    }
+    @media only screen and (max-width: 480px) {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .sub-flex{
+            display: flex;
+            flex-direction: column;
             .sp-5 a {
                 // border: 2px solid red;
                 margin: 0 2em 0 0;

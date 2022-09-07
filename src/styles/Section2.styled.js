@@ -78,6 +78,10 @@ export const SecondSectionFlex = styled.div`
             flex-direction: column;
             margin-bottom: 3rem;
           }
+          @media only screen and (max-width: 480px) {
+            flex-direction: column;
+            margin-bottom: 3rem;
+          }
 
 `
 
@@ -93,6 +97,16 @@ export const SecondSectionText = styled.div`
       margin: 0 auto;
     }
     @media (min-width: 481px ) and (max-width: 768px) {
+      text-align: center;
+      margin-bottom: 3rem;
+
+
+      .h2, .p-2{
+        text-align: center;
+        width: unset;
+      }
+    }
+    @media only screen and (max-width: 480px) {
       text-align: center;
       margin-bottom: 3rem;
 

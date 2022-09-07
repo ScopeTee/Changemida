@@ -31,7 +31,7 @@ function Section2() {
                             src={Photo2}
                             width="450"
                             height="228"
-                            className="d-inline-block align-top"
+                            className="d-inline-block align-top photo2"
                         />{''}
                         <div className="d-1" >
                             <div className="d-2" >

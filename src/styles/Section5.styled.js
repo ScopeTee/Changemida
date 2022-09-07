@@ -42,6 +42,11 @@ export const FifthSectionMainFlex = styled.div`
         // margin-bottom: 3rem;
 
       }
+      @media only screen and (max-width: 480px) {
+        flex-direction: column;
+        // margin-bottom: 3rem;
+
+      }
 
 `
 export const MainFlexOne = styled.div`
@@ -64,6 +69,14 @@ export const MainFlexOne = styled.div`
         margin-bottom: 2rem;
         img{
             margin: 0 2em;
+        }
+    }
+    @media only screen and (max-width: 480px) {
+        flex-direction: row;
+        margin: 0 1.5rem;
+        margin-bottom: 2rem;
+        img{
+            // margin: 0 2em;
         }
     }
 `
@@ -90,6 +103,14 @@ export const MainFlexTwo = styled.div`
             margin: 0 2em;
         }
     }
+    @media only screen and (max-width: 480px) {
 
+        flex-direction: row;
+        // margin: 0 1.5rem;
+        margin-top: 2rem;
+        img{
+            // margin: 0 2em;
+        }
+    }
     
 `

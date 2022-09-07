@@ -50,6 +50,9 @@ export const Divider2 = styled.div`
     @media (min-width: 481px ) and (max-width: 768px) {
         visibility: hidden;
     }
+    @media only screen and (max-width: 480px) {
+        visibility: hidden;
+    }
     `
 export const FourthSectionContent = styled.div`
     display: flex;
@@ -64,7 +67,10 @@ export const FourthSectionContent = styled.div`
         flex-direction: column;
         margin-bottom: 3rem;
       }
-
+      @media only screen and (max-width: 480px) {
+        flex-direction: column;
+        margin-bottom: 3rem;
+      }
     `
 export const FourthSectionText = styled.div`
     background: #9A52DF;
@@ -75,6 +81,10 @@ export const FourthSectionText = styled.div`
 
     @media (min-width: 481px ) and (max-width: 768px) {
         height: unset;
+      }
+      @media only screen and (max-width: 480px) {
+        height: unset;
+        border-radius: 0;
       }
     `
 export const FourthSectionImg = styled.div`
@@ -90,6 +100,14 @@ export const FourthSectionImg = styled.div`
       @media (min-width: 481px ) and (max-width: 768px) {
         img{
             width: 450px;
+
+        }
+        height: unset;
+
+      }
+      @media only screen and (max-width: 480px) {
+        img{
+            width: 250px;
 
         }
         height: unset;

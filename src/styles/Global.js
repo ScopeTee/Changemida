@@ -8,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
     body {
         font-family: 'Nunito', sans-serif;
         margin: 0 auto;
-        border: 5px solid black;
+        // border: 5px solid black;
     }
 
 
@@ -41,6 +41,41 @@ export const GlobalStyles = createGlobalStyle`
             width: 100%;
         }
         nav {
+            border-bottom: 2px solid #FFFFFF
+        }
+    }
+    @media only screen and (max-width: 480px) {
+        .bag-img{
+            width: 300px;
+        }
+        .section-2-img {
+            width: 280px;
+        }
+        .photo2 {
+            width: 300px;
+        }
+        .large-img {
+            width:250px;
+        }
+        .md-img{
+            width: 130px;
+            height: 130px;
+        }
+        .md-img-2{
+            width: 120px;
+            height: 120px;
+        }
+        .navbar-text {
+            flex-direction: column;
+        }
+        .navbar-text a {
+            margin-bottom: 15px;
+        }
+        .navbar-text button{
+            width: 100%;
+        }
+        nav {
+            flex-direction: column;
             border-bottom: 2px solid #FFFFFF
         }
     }

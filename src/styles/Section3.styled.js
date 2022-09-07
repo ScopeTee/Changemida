@@ -46,6 +46,11 @@ align-items: center;
 justify-content: center;
 @media (min-width: 481px ) and (max-width: 768px) {
     flex-direction: column;
+}
+@media only screen and (max-width: 480px) {
+    flex-direction: column;
+
+}
 `
 
 export const ImgSetOne = styled.div`
@@ -55,6 +60,13 @@ export const ImgSetOne = styled.div`
     @media (min-width: 481px ) and (max-width: 768px) {
     // border: 2px solid red;
     // width: 150px
+
+    }
+    @media only screen and (max-width: 480px) {
+        img {
+            width: 250px;
+
+        }
 
     }
 `
@@ -82,6 +94,9 @@ export const OverlayArrow = styled.div`
         // left:45.5%;
         // margin-top: -13%;  
         visibility: hidden;  
+        }
+        @media only screen and (max-width: 480px) {
+            visibility: hidden;  
         }
 `
 export const ThirdSectionText = styled.div`

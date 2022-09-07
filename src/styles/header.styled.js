@@ -100,6 +100,23 @@ export const HeaderSectionText = styled.div`
     }
 
   }
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    margin-bottom: 3rem;
+
+    .form-flex{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .btn-0 {
+      width: 100%;
+      margin: 10px 0;
+    }
+    .h1, .sp-1 {
+      text-align: center;
+    }
+  }
 `
 
 export const HeaderSectionFlex = styled.div`
@@ -107,6 +124,9 @@ export const HeaderSectionFlex = styled.div`
           align-items: center;
           justify-content: space-between;
           @media (min-width: 481px ) and (max-width: 768px) {
+            flex-direction: column;
+          }
+          @media (max-width: 480px ) {
             flex-direction: column;
           }
 `
