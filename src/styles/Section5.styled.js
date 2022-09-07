@@ -37,6 +37,12 @@ export const FifthSectionMainFlex = styled.div`
         // margin-bottom: 3rem;
 
       }
+      @media (min-width: 481px ) and (max-width: 768px) {
+        flex-direction: column;
+        // margin-bottom: 3rem;
+
+      }
+
 `
 export const MainFlexOne = styled.div`
     display: flex;
@@ -52,6 +58,14 @@ export const MainFlexOne = styled.div`
             margin: 0 2em;
         }
       }
+      @media (min-width: 481px ) and (max-width: 768px) {
+        flex-direction: row;
+        margin: 0 1.5rem;
+        margin-bottom: 2rem;
+        img{
+            margin: 0 2em;
+        }
+    }
 `
 
 export const MainFlexTwo = styled.div`
@@ -68,6 +82,14 @@ export const MainFlexTwo = styled.div`
             margin: 0 2em;
         }
       }
+      @media (min-width: 481px ) and (max-width: 768px) {
+        flex-direction: row;
+        // margin: 0 1.5rem;
+        margin-top: 2rem;
+        img{
+            margin: 0 2em;
+        }
+    }
 
     
 `

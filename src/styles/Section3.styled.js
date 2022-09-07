@@ -44,11 +44,19 @@ export const ThirdSectionImg = styled.div`
 display:flex;
 align-items: center;
 justify-content: center;
+@media (min-width: 481px ) and (max-width: 768px) {
+    flex-direction: column;
 `
 
 export const ImgSetOne = styled.div`
     display:flex;
     flex-direction: column;
+
+    @media (min-width: 481px ) and (max-width: 768px) {
+    // border: 2px solid red;
+    // width: 150px
+
+    }
 `
 export const OverlayArrow = styled.div`
     position: absolute;
@@ -66,6 +74,15 @@ export const OverlayArrow = styled.div`
         left:45.5%;
         margin-top: -13%;
     }
+    
+    @media (min-width: 481px ) and (max-width: 768px) {
+        // border: 2px solid red;
+        // transform: rotate(90deg);
+        // position: absolute;
+        // left:45.5%;
+        // margin-top: -13%;  
+        visibility: hidden;  
+        }
 `
 export const ThirdSectionText = styled.div`
     text-align: center;

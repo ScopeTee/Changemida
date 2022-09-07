@@ -47,6 +47,9 @@ export const Divider2 = styled.div`
     @media (min-width: 769px ) and (max-width: 1024px) {
         visibility: hidden;
     }
+    @media (min-width: 481px ) and (max-width: 768px) {
+        visibility: hidden;
+    }
     `
 export const FourthSectionContent = styled.div`
     display: flex;
@@ -57,14 +60,22 @@ export const FourthSectionContent = styled.div`
         margin-bottom: 3rem;
 
       }
+      @media (min-width: 481px ) and (max-width: 768px) {
+        flex-direction: column;
+        margin-bottom: 3rem;
+      }
 
     `
 export const FourthSectionText = styled.div`
     background: #9A52DF;
     border-radius: 0 50px 50px 0;
     padding: 2rem 0;
-    // height: 545px;
-    text-align: left
+    height: 545px;
+    text-align: left;
+
+    @media (min-width: 481px ) and (max-width: 768px) {
+        height: unset;
+      }
     `
 export const FourthSectionImg = styled.div`
     height: 545px;
@@ -74,6 +85,14 @@ export const FourthSectionImg = styled.div`
         border-radius: 0 ;
         height: unset;
         padding: 2rem 0;
+
+      }
+      @media (min-width: 481px ) and (max-width: 768px) {
+        img{
+            width: 450px;
+
+        }
+        height: unset;
 
       }
     `

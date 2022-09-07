@@ -82,11 +82,31 @@ export const HeaderSectionText = styled.div`
       margin: 10px 0;
     }
   }
+  @media (min-width: 481px ) and (max-width: 768px) {
+    width: 100%;
+    margin-bottom: 3rem;
+
+    .form-flex{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .btn-0 {
+      width: 100%;
+      margin: 10px 0;
+    }
+    .h1, .sp-1 {
+      text-align: center;
+    }
+
+  }
 `
 
 export const HeaderSectionFlex = styled.div`
           display: flex;
           align-items: center;
           justify-content: space-between;
-
+          @media (min-width: 481px ) and (max-width: 768px) {
+            flex-direction: column;
+          }
 `
