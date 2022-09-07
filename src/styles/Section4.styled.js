@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const FourthSection = styled.section`
-    height: 595px;
+    // height: 595px;
     border-radius: 30px;
     
     .h2 {

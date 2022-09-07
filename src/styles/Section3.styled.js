@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ThirdSection = styled.section`
     font-family: 'Nunito', sans-serif;
-    height: 680px;
+    // height: 680px;
     background: rgba(245, 215, 255, 0.29);
     opacity: 0.8;
     border-radius: 30px;
