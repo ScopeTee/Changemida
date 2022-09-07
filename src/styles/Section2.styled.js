@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const SecondSection= styled.section`
     font-family: 'Nunito', sans-serif;
-    height: 635px;
+    // height: 635px;
     background: radial-gradient(50% 50% at 50% 50%, #F0ECFF 0%, rgba(240, 236, 255, 0) 100%);
     opacity: 0.8;
     .h2 {
@@ -63,9 +63,20 @@ export const SecondSectionFlex = styled.div`
           display: flex;
           align-items: center;
           justify-content: space-between;
+          
+          @media (min-width: 1025px ) and (max-width: 1200px) {
+            flex-direction: column;
+            margin-bottom: 3rem;
+
+          }
 
 `
 
 export const SecondSectionText = styled.div`
     text-align: left;
+
+    @media (min-width: 1025px ) and (max-width: 1200px) {
+      padding-bottom: 3rem;
+      margin: 0 auto;
+    }
 `

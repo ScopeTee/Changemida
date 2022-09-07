@@ -35,7 +35,7 @@ function Section5() {
                             src={Photo18}
                             width="200"
                             height="200"
-                            className="d-inline-block align-top mt-5"
+                            className="d-inline-block align-top mt-5 md-img"
                             />{''}
                         </MainFlexOne>
                         <Image
@@ -43,7 +43,7 @@ function Section5() {
                         src={Photo14}
                         width="667"
                         height="300"
-                        className="d-inline-block align-top "
+                        className="d-inline-block align-top large-img"
                     />{''}
                         <MainFlexTwo>
                             <Image
@@ -51,7 +51,7 @@ function Section5() {
                             src={Photo15}
                             width="181"
                             height="181"
-                            className="d-inline-block align-top "
+                            className="d-inline-block align-top md-img-2"
                         />{''}
                             <Image
                                 alt=""

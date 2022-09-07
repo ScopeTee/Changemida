@@ -57,6 +57,19 @@ export const HeaderSection = styled.header`
 export const HeaderSectionText = styled.div`
   width: -webkit-fill-available;
   text-align: left;
+  @media (min-width: 1025px ) and (max-width: 1200px) {
+    width: 100%;
+
+    .form-flex{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .btn-0 {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
 `
 
 export const HeaderSectionFlex = styled.div`

@@ -19,7 +19,11 @@ text-align: left;
 `
 
 export const FooterSectionTextWrap = styled.div`
-    width: 25%;
+    width: 30%;
+    @media (min-width: 1025px ) and (max-width: 1200px) {
+        width: 35%;
+
+    }
 
     .h3{
         font-family: 'Nunito';
@@ -38,6 +42,8 @@ export const FooterSectionTextWrap = styled.div`
         line-height: 150%;   
         color: #544464;
       }
+
+
 `
 export const FooterSectionFlex = styled.section`
     display: flex;
