@@ -1,3 +1,4 @@
+import { GlobalStyles } from './styles/Global';
 import Header from './components/header';
 import Section2 from './components/section2';
 import {Divide} from './styles/divider.styled'
@@ -14,6 +15,7 @@ import Footer from './components/footer';
 function App() {
   return (
     <>
+      <GlobalStyles />
         <Header />
         <Section2 />
         <Divide />
