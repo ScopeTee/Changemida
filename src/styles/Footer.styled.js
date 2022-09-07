@@ -135,4 +135,10 @@ export const FooterSectionAlign = styled.div`
           text-decoration: none;
           color: #544464;
           }        
+
+          @media only screen and (max-width: 480px) {
+            .h2-5{
+                font-size: 30px;
+            }
+        }
 `

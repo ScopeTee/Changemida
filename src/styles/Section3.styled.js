@@ -101,4 +101,8 @@ export const OverlayArrow = styled.div`
 `
 export const ThirdSectionText = styled.div`
     text-align: center;
+    @media only screen and (max-width: 480px) {
+        .h2-1{
+            font-size: 35px;
+        }
 `

@@ -16,7 +16,7 @@ function Section4() {
                         <FourthSectionText className="px-5 pe-5">
                                 <h2 className=" h2 my-3  pt-3">Engage your customers wherever they are.</h2>
                                 <p className="p-2">Whether you are having a huge sale or just want to wish them a happy new month.</p>  
-                                <Button variant="light" className="mx-3 px-5 px-3 py-3 btn-1">Create your first wallet</Button>{' '}
+                                <Button variant="light" className="px-3 py-3 btn-1">Create your first wallet</Button>{' '}
                         </FourthSectionText>
                         <FourthSectionImg>
                             <Image

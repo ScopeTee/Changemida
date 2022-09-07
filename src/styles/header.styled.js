@@ -113,6 +113,14 @@ export const HeaderSectionText = styled.div`
       width: 100%;
       margin: 10px 0;
     }
+    .h1 {
+      width: 100%;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    
+    }
     .h1, .sp-1 {
       text-align: center;
     }

@@ -110,7 +110,14 @@ export const SecondSectionText = styled.div`
       text-align: center;
       margin-bottom: 3rem;
 
-
+      .h2 {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 677px;
+        }
       .h2, .p-2{
         text-align: center;
         width: unset;

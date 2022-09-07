@@ -23,8 +23,20 @@ export const FifthSection = styled.section`
         text-align: center;
     }
 `
-export const FifthSectionContentOne = styled.section``
-export const FifthSectionContentTwo = styled.section``
+export const FifthSectionContentOne = styled.section`
+    @media only screen and (max-width: 480px) {
+        .h2-2{
+            font-size: 48px;
+        }
+    }
+`
+export const FifthSectionContentTwo = styled.section`    
+    @media only screen and (max-width: 480px) {
+        .h2-2{
+        font-size: 48px;
+        }
+    }
+`
 
 
 export const FifthSectionMainFlex = styled.div`

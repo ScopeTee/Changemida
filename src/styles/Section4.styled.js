@@ -85,6 +85,9 @@ export const FourthSectionText = styled.div`
       @media only screen and (max-width: 480px) {
         height: unset;
         border-radius: 0;
+        .h2{
+            font-size: 35px;
+        }
       }
     `
 export const FourthSectionImg = styled.div`
