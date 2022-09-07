@@ -72,7 +72,7 @@ function Section5() {
                             src={Image1}
                             width="126"
                             height="128"
-                            className="d-inline-block align-top "
+                            className="d-inline-block align-top"
                         />{''}
                         <Image
                             alt=""

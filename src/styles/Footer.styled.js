@@ -22,6 +22,9 @@ export const FooterSectionTextWrap = styled.div`
     width: 30%;
     @media (min-width: 1025px ) and (max-width: 1200px) {
         width: 35%;
+    }
+    @media (min-width: 769px ) and (max-width: 1024px) {
+        width: 50%;
 
     }
 
@@ -49,6 +52,19 @@ export const FooterSectionFlex = styled.section`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (min-width: 769px ) and (max-width: 1024px) {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .sub-flex{
+            display: flex;
+            .sp-5 a {
+                // border: 2px solid red;
+                margin: 0 2em 0 0;
+            }
+        }
+    }
 `
 export const FooterSectionAlign = styled.div`
     text-align: left;

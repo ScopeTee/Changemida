@@ -60,7 +60,12 @@ export const OverlayArrow = styled.div`
         position: absolute;
         left:46.5%;
         margin-top: -10%;
-        }
+    }
+    @media (min-width: 769px ) and (max-width: 1024px) {
+        position: absolute;
+        left:45.5%;
+        margin-top: -13%;
+    }
 `
 export const ThirdSectionText = styled.div`
     text-align: center;

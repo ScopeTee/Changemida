@@ -31,17 +31,43 @@ export const FifthSectionMainFlex = styled.div`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    @media (min-width: 769px ) and (max-width: 1024px) {
+        flex-direction: column;
+        // margin-bottom: 3rem;
+
+      }
 `
 export const MainFlexOne = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+
+    @media (min-width: 769px ) and (max-width: 1024px) {
+        flex-direction: row;
+        margin: 0 1.5rem;
+        margin-bottom: 2rem;
+        img{
+            margin: 0 2em;
+        }
+      }
 `
 
 export const MainFlexTwo = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+
+    @media (min-width: 769px ) and (max-width: 1024px) {
+        flex-direction: row;
+        margin-top: 2rem;
+
+        img{
+            margin: 0 2em;
+        }
+      }
+
+    
 `

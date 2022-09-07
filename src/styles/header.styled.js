@@ -6,7 +6,7 @@ export const HeaderSection = styled.header`
     opacity: 0.8;
     color: white;
     font-family: 'Nunito', sans-serif;
-    height: 763px;
+    // height: 763px;
 
     .p-1 {
         color: white;
@@ -60,6 +60,18 @@ export const HeaderSectionText = styled.div`
   @media (min-width: 1025px ) and (max-width: 1200px) {
     width: 100%;
 
+    .form-flex{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .btn-0 {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  @media (min-width: 769px ) and (max-width: 1024px) {
+    width: 100%;
     .form-flex{
       display: flex;
       flex-direction: column;

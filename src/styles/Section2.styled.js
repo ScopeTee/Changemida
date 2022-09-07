@@ -69,6 +69,11 @@ export const SecondSectionFlex = styled.div`
             margin-bottom: 3rem;
 
           }
+          @media (min-width: 769px ) and (max-width: 1024px) {
+            flex-direction: column;
+            margin-bottom: 3rem;
+
+          }
 
 `
 
@@ -76,6 +81,10 @@ export const SecondSectionText = styled.div`
     text-align: left;
 
     @media (min-width: 1025px ) and (max-width: 1200px) {
+      padding-bottom: 3rem;
+      margin: 0 auto;
+    }
+    @media (min-width: 769px ) and (max-width: 1024px) {
       padding-bottom: 3rem;
       margin: 0 auto;
     }

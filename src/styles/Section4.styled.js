@@ -4,7 +4,9 @@ import styled from "styled-components";
 export const FourthSection = styled.section`
     // height: 595px;
     border-radius: 30px;
-    
+    @media (min-width: 769px ) and (max-width: 1024px) {
+        // background:#9A52DF
+      }
     .h2 {
         font-family: 'Nunito';
         font-style: normal;
@@ -41,21 +43,37 @@ export const Divider2 = styled.div`
     background: #9A52DF;
     margin: 0 auto;
     border-radius: 0 30px 30px 0;
+
+    @media (min-width: 769px ) and (max-width: 1024px) {
+        visibility: hidden;
+    }
     `
 export const FourthSectionContent = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (min-width: 769px ) and (max-width: 1024px) {
+        flex-direction: column;
+        margin-bottom: 3rem;
 
+      }
 
     `
 export const FourthSectionText = styled.div`
     background: #9A52DF;
-    border-radius: 0 0 50px 0;
-    height: 545px;
+    border-radius: 0 50px 50px 0;
+    padding: 2rem 0;
+    // height: 545px;
     text-align: left
     `
 export const FourthSectionImg = styled.div`
     height: 545px;
     border-radius: 30px 0 0 0 ;
+    @media (min-width: 769px ) and (max-width: 1024px) {
+        background:#FFFFFF;
+        border-radius: 0 ;
+        height: unset;
+        padding: 2rem 0;
+
+      }
     `

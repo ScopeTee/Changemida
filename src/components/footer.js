@@ -16,7 +16,8 @@ function Footer() {
                         <FooterSectionAlign>
                             <h2 className=" h2-5 my-3">ChangeMIDA</h2>
                             <p className="sp-4">Vazapay Limited</p>  
-                        </FooterSectionAlign>     
+                        </FooterSectionAlign>
+                        <div className="sub-flex">     
                         <FooterSectionAlign>
                             <p className="sp-5"> <a href="##">FAQ</a></p>  
                             <p className="sp-5"> <a href="##">Terms of Use</a></p>  
@@ -25,6 +26,7 @@ function Footer() {
                             <p className="sp-5"> <a href="##">hello@changemida.com</a></p>  
                             <p className="sp-5"><a href="##">+234800000000 </a></p>  
                         </FooterSectionAlign> 
+                        </div>
                     </FooterSectionFlex>      
                        
                 </FooterSectionText>
