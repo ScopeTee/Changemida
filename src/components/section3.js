@@ -15,9 +15,9 @@ function Section3() {
         <Container>
             <ThirdSection className="my-5">
                 <Container>                
-                    <div class="text-center px-5 mt-5 pt-5">
+                    <div class="text-center mt-5 pt-5">
                             <h2 className="h2-1 my-3">Top up payments from your customers wallet</h2>
-                            <p class="p-3"> Save time and speed up payments from your customers’s wallet</p>  
+                            <p className="p-3"> Save time and speed up payments from your customers’s wallet</p>  
                             <Button className="btn-2 px-3 py-3">Create yout first wallet</Button>{' '}
                     </div>
                     <ThirdSectionImg className="mt-5">
@@ -56,7 +56,6 @@ function Section3() {
                             className="d-inline-block align-top"
                             />{''}
                     </OverlayArrow>
-                <div className="divider mt-5"></div>
             </Container>
         </ThirdSection>
     </Container>

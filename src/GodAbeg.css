@@ -176,12 +176,8 @@
     opacity: 0.8;
     border-radius: 30px;
   }
-  .h2-1 {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 65px;
-  letter-spacing: 0em;
-  }
+
+  
   .p-3{
   font-size: 24px;
   font-weight: 400;
@@ -346,6 +342,5 @@
 
   .img-group {
     display:flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
   }

@@ -1,4 +1,6 @@
 import React from "react";
+import { FifthSection,FifthSectionContentOne,FifthSectionContentTwo, FifthSectionMainFlex, MainFlexOne, MainFlexTwo } from "../styles/Section5.styled";
+import { Container } from "../styles/Container.styled";
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image'
 import Photo14 from "../Images/Rectangle 14.png"
@@ -15,13 +17,12 @@ import Image3 from "../Images/image 3.jpg"
 
 function Section5() {
     return ( 
-        <section className="section-5 mt-5">
-            {/* <div className="divider "></div> */}
-            <div className="contain s-5 text-center">
-                <section className="mb-5">
+        <Container>
+        <FifthSection className="mt-5">
+                <FifthSectionContentOne className="mb-5">
                     <h2 className="h2-2 mb-5">Made for your business</h2>
-                    <div className="main-flex">
-                        <div className="fx-1">
+                    <FifthSectionMainFlex>
+                        <MainFlexOne>
                             <Image
                             alt=""
                             src={Photo17}
@@ -36,7 +37,7 @@ function Section5() {
                             height="200"
                             className="d-inline-block align-top mt-5"
                             />{''}
-                        </div>
+                        </MainFlexOne>
                         <Image
                         alt=""
                         src={Photo14}
@@ -44,7 +45,7 @@ function Section5() {
                         height="300"
                         className="d-inline-block align-top "
                     />{''}
-                        <div className="fx-2">
+                        <MainFlexTwo>
                             <Image
                             alt=""
                             src={Photo15}
@@ -59,13 +60,13 @@ function Section5() {
                                 height="114"
                                 className="d-inline-block align-top mt-5"
                             />{''}
-                        </div>
+                        </MainFlexTwo>
 
-                    </div>
-                </section>
-                <section className="my-5">
+                    </FifthSectionMainFlex>
+                </FifthSectionContentOne>
+                <FifthSectionContentTwo className="my-5">
                     <h2 className="h2-2">Trusted by many</h2>
-                    <div className="main-flex mb-5">
+                    <FifthSectionMainFlex className="mb-5">
                         <Image
                             alt=""
                             src={Image1}
@@ -87,11 +88,11 @@ function Section5() {
                             height="68"
                             className="d-inline-block align-top"
                         />{''}
-                    </div>
-                </section>
+                    </FifthSectionMainFlex>
+                </FifthSectionContentTwo>
                 <Button className="btn-2 px-3 py-3 mt-3">Create yout first wallet</Button>{' '}
-            </div>  
-        </section>
+        </FifthSection>
+        </Container>
     );
 }
 
