@@ -36,10 +36,10 @@ display:flex;
     flex-direction: ${props => props.direction ? "row" : "column"};
     `
 
-    export const SectionBottomWrap = styled.div`
-    background: #9A52DF;
-    color: white;
-    `
+export const SectionBottomWrap = styled.div`
+background: #9A52DF;
+color: white;
+`
 
 export const Divider2 = styled.div`
     width: 90%;
@@ -48,4 +48,11 @@ export const Divider2 = styled.div`
     // margin: 0 auto;
     border: 2px solid #9A52DF;
     border-radius: 0 30px 30px 0;
+`
+
+export const Divide = styled.div`
+    width: 174px;
+    height: 2px;
+    background: #9A52DF;
+    margin: 0 auto;
 `

@@ -1,5 +1,5 @@
 import React from "react";
-import { Wrapper } from "../atoms/wrapper";
+import { Divide, Wrapper } from "../atoms/wrapper";
 import SectionTop from "../molecules/section-one";
 import SectionBottom from "../molecules/section-three";
 
@@ -25,12 +25,14 @@ export default function Sections() {
 			description = {items[0].desc}
 			button = {items[0].button}
 			/>
+			<Divide className="my-5"></Divide>
 
 			<MidSection 
 			title= {items[1].title}
 			description = {items[1].desc}
 			button = {items[1].button}
 			/>
+			<Divide className="my-5"></Divide>
 
 			<SectionBottom 
 			title= {items[2].title}

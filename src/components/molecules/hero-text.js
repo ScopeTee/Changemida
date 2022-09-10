@@ -1,5 +1,5 @@
 import React from "react";
-import Form from 'react-bootstrap/Form';
+// import Form from 'react-bootstrap/Form';
 import { HeroForm, MailForm } from "../atoms/form";
 import { Btn } from "../atoms/button";
 import { Heading1, Span1 } from "../atoms/typography";

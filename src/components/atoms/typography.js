@@ -20,7 +20,7 @@ export const Span1 = styled.span`
 
 `
 
-export const SectionTitle = styled.h2`
+export const Heading2 = styled.h2`
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
@@ -44,7 +44,7 @@ export const preFootTextTwo = styled. h3`
 
 `
 
-export const FooterTextOne = styled.span`
+export const Span2 = styled.span`
 font-family: 'Nunito';
 font-style: normal;
 font-weight: 700;
@@ -55,7 +55,4 @@ font-size: ${props => props.size ? "60px" : "35px"};
     span {
         color: #9A52DF
     }
-`
-export const FooterTextTwo = styled.span`
-
 `

@@ -7,7 +7,7 @@ import Image6 from "../component-images/image 6.png"
 
 function MidSecImg() {
     return ( 
-        <Wrapper>
+        <Wrapper className="mt-5">
             <Wrap className="d-flex align-items-center flex-column flex-lg-row justify-content-center">
                 <Wrap className="d-flex flex-column justify-content-center align-items-center">
                     <Logo
