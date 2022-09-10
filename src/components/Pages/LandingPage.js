@@ -1,17 +1,23 @@
 import React from "react";
+import PreFoot from "../organisms/pre-footer";
+import NavigationBar from "../organisms/NavigationBar";
+import Hero_Header from "../organisms/Hero-Header";
+import Footer from "../organisms/footer";
+import { HeaderWrap } from "../atoms/wrapper";
+import Sections from "../organisms/Sections";
 
-import Header from "../organisms/header"
-import Footer from "../organisms/footer"
-import ThreeSection from "../organisms/section";
-import PreFoot from "../organisms/pre-foot";
 
 export default function LandingPage(){
     return (
         <>
-        <Header />
-        <ThreeSection />
+        <HeaderWrap>
+            <NavigationBar />
+            <Hero_Header />
+        </HeaderWrap>
+        <Sections />
         <PreFoot />
         <Footer />
+
         </>
     )
 }

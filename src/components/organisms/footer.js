@@ -1,15 +1,16 @@
 import React from "react";
+import { Wrapper } from "../atoms/wrapper";
+import FootAnchor from "../molecules/FootAnchor";
+import FootText from "../molecules/footerText";
 
-// import HeaderM from "../molecules/header"
-// import SectionM from "../molecules/section"
-import FooterM from "../molecules/footer"
 
-export default function Footer(){
-    return (
+export default function Footer() {
+	return (
         <>
-        {/* <HeaderM />
-        <SectionM /> */}
-        <FooterM />
+        <Wrapper bg clip className="">
+            <FootText />
+            <FootAnchor />
+        </Wrapper>
         </>
     )
 }
