@@ -1,47 +1,32 @@
 import React from "react";
-import { Logo } from "../atoms/icons";
+import { Img } from "../atoms/icons";
 import { Wrap, Wrapper } from "../atoms/wrapper";
 import Image9 from "../component-images/image 9.png"
 import Image7 from "../component-images/image 7.png"
 import Image6 from "../component-images/image 6.png"
 
-function MidSecImg() {
+export default function MidSecImg() {
     return ( 
         <Wrapper className="mt-5">
             <Wrap className="d-flex align-items-center flex-column flex-lg-row justify-content-center">
                 <Wrap className="d-flex flex-column justify-content-center align-items-center">
-                    <Logo
-                        alt="Joha"
-                        src={Image9}
-                        // width="345"
-                        // height="75"
-                    />{''}                   
-                    <Logo
-                        alt="Joha"
-                        src={Image7}
-                        // width="345"
-                        // height="171"
-                    />{''}
+                    <Img alt="" src={Image9} />                   
+                    <Img alt="" src={Image7} />
                 </Wrap>
                 <Wrap>
-                    <Logo
-                    alt="Joha"
-                    src={Image6}
-                    // width="282"
-                    // height="330"
-                    />{''}
+                    <Img alt="" src={Image6} />
                 </Wrap>
             </Wrap>
-                {/* <OverlayArrow>
-                <Logo
-                        alt="Joha"
+                {/* <OverlayArrow> */}
+                <Img
+                        alt="OverlayArrow"
                         src=""
+                        className="overlay"
                         // width="95"
                         // height="95"
                         />{''}
-                </OverlayArrow> */}
+                {/* </OverlayArrow> */}
     </Wrapper>
     );
 }
 
-export default MidSecImg;

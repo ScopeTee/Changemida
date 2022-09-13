@@ -8,8 +8,8 @@ export default function NavigationBar() {
 	return (
         <>
         <Wrapper className="d-flex align-items-center justify-content-between">
-        <NavBrand />
-        <Account />
+            <NavBrand />
+            <Account />
         </Wrapper>
         </>
     )
